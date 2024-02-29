@@ -1,0 +1,206 @@
+.connection-main {
+    background-color: #F9F8F9;
+    padding: 7.5rem  7.5rem 0rem 7.5rem;
+    min-height: 100vh;
+    
+}
+.connection-main{
+    /* margin: 0 auto;
+    max-width: 1800px; */
+}
+main p {
+    padding: 16px 0;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.main-section {
+    display: flex;
+    align-items: center;
+    
+}
+
+.main-section .section1 {
+    flex: 2;
+    text-align: center;
+}
+
+.main-section .section1  img  {
+    width: 530px;
+}
+
+.main-section form {
+    flex: 1;
+    display: flex;
+    flex-direction: column; 
+    gap: 40px; 
+    padding: 1rem 0px;
+    
+    
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+   
+   
+}
+
+.input-container label {
+    font-size: 1.1rem;
+}
+
+.input-container input {
+    
+    padding: 0.8rem 0.5rem;
+    outline: none;
+    border: 1px solid #9F4CA7;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    
+    
+}
+
+.input-container input:focus {
+  
+    border: 2px solid #9f2da9;
+    
+    
+}   
+
+.input-container.password {
+    position: relative;
+   
+
+}
+
+.submit-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.submit-button{
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    background-color: #9F4CA7;
+    padding: 0.8em 3em;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .2s ease;
+    margin-top: 1rem
+
+}
+.submit-button:hover{
+    background-color: #a931b4;
+    
+}
+.eyes_style2{
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    
+}
+
+.span-button:hover {
+    text-decoration: underline;
+}
+
+.span-button {
+    outline: none;
+    border: none;
+    text-decoration: none;
+    color: #9F4CA7;
+    cursor: pointer;
+    transform: .2s ease;
+    background-color: #F9F8F9;
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 600px){
+    html{
+        font-size: 12px;
+
+    }
+    .connection-main{
+        padding: 7.5rem  4rem 0rem 4rem;
+    }
+    .main-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-section .section1  img {
+        width: 200px;
+    }
+    .eyes_style2{
+        position: absolute;
+        top: 45px;
+        right: 10px;
+        
+    }
+    .connection-question{
+        font-size: .9rem;
+    }
+
+    .connection-question button{
+        font-size: .9rem;
+        font-weight: bold;
+    }
+}
+
+    @media only screen and (max-width: 400px){
+        html{
+            font-size: 12px;
+        }
+        .submit-container{
+            gap: .5rem;
+        }
+        .connection-question{
+            font-size: .7rem;
+           
+        }
+    
+        .connection-question button{
+            font-size: .7rem;
+            font-weight: bold;
+        }
+    }
+
+
+@media only screen and (min-width: 700px) and (max-width: 992px){
+    html{
+        font-size: 14px;
+    }
+
+    .connection-main{
+        padding: 7.5rem  4rem 0rem 4rem;
+    }
+    .main-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-section .section1  img {
+        width: 300px;
+    }
+    .eyes_style2{
+        position: absolute;
+        top: 50px;
+        right: 10px;
+        
+    }
+    .connection-question{
+        font-size: .9rem;
+    }
+
+    .connection-question button{
+        font-size: .9rem;
+        font-weight: bold;
+    }
+}

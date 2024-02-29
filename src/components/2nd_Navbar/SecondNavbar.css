@@ -1,0 +1,176 @@
+.secondnavbar {
+    display: flex;
+    background-color: #F9F8F9;
+    flex: 1;
+    z-index: 2;
+    /* background-color: pink; */ 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    padding: 1.2rem 7.5rem;
+    gap: 3rem;
+    border-bottom: 2px solid #9F4CA7;
+    /* max-width: 1800px; */
+    margin: 0 auto;
+    
+   
+}
+
+.logotext {
+    font-family: "Alex Brush", cursive;
+    color: black;
+    font-size: 2.5rem;
+    
+   
+}
+
+.searchbar {
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+       
+}
+
+.searchbar-container {
+    padding: 0px 0px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin: 0  auto;
+    width: 70%;
+    max-width: 750px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    /* background-color: pink; */
+}
+.searchbar-container:focus-within {
+    border: 2px solid #d2bad8;
+}
+
+.searchbar-container input {
+    width: 100%;
+   padding: 0.6rem 0.8rem;
+   border-radius: 6px;
+   outline: none;  
+   border: none;
+   font-size: 1rem;
+   font-family: "Poppins", sans-serif;
+
+}
+
+.searchbar-container button {
+    outline: none;
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    border-radius: 6px;
+
+}
+
+.search-icon {
+    width: 30px;
+}
+
+.navigation {
+    
+    text-align: center;
+    justify-content: flex-end;
+    flex: 1;
+    display: flex;
+    gap: 2rem;
+    
+}
+
+.navigation a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px){
+    html{
+        font-size: 12px;
+    }
+    .secondnavbar{
+        padding: 1rem 4rem;
+        justify-content: space-between;   
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        gap: 0;
+       
+    }
+    /* .logotext{
+        
+        
+    } */
+    .searchbar{
+        width: 100%;
+    }
+    .searchbar-container{
+        width: 100%;
+    }
+    .searchbar-container{
+        width: 100%;
+    }
+    .navigation {
+        position: fixed;
+        top: 62px;
+        right: 0;
+        left: 0;
+        background-color: black;
+        display: none;
+        flex-direction: column;
+        color: white;
+        background-color: antiquewhite;
+        width: 100%;
+    }
+    .navigation a{
+        color: white;
+        padding: 0;
+    }
+
+}
+
+@media only screen and (min-width: 700px) and (max-width: 992px){
+    html{
+        font-size: 14px;
+    }
+    .secondnavbar{
+        padding: 1rem 4rem;
+        justify-content: space-between;   
+        display: flex;
+        margin: 0;
+        gap: 5rem;
+       
+    }
+    /* .logotext{
+        
+        
+    } */
+    .searchbar{
+        width: 100%;
+    }
+    .searchbar-container{
+        width: 100%;
+    }
+    .searchbar-container{
+        width: 100%;
+    }
+    .navigation {
+        
+        display: flex;
+        color: black;
+       
+        width: 100%;
+    }
+    .navigation a{
+        color: black;
+        padding: 0;
+    }
+}
+

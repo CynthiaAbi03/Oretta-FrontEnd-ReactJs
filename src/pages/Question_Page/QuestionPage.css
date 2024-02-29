@@ -1,0 +1,118 @@
+.questionpage{
+    
+    background-color: #F9F8F9;
+    padding: 7.5rem 7.5rem 0rem 7.5rem; 
+    min-height: 100vh;
+   
+}
+
+/* .body-questionpage {
+    margin: 0 auto;
+    max-width: 1800px;
+} */
+
+.question-section {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.heading{
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem
+}
+
+.title-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.subtitle {
+    color: #3b3a3a;
+}
+.input-titlecontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    border: 1px solid #a7a4a4;
+    padding: 28px 20px;
+    border-radius: 6px;
+}
+
+.title-input{
+    background-color: inherit;
+    outline: none;
+    border: 1px solid #a7a4a4;
+    padding: 0.8rem 0.5rem;
+    border-radius: 6px;    
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+}
+.title-input:focus {
+    border: 2px solid #cda4d8;
+}
+.button-container1 button {
+    background-color: #9F4CA7;
+    font-size: 1.2rem;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .2 ease;
+    padding: 0.6em 2.5em;
+}
+.question-input{
+
+    background-color: inherit;
+    outline: none;
+    border: 1px solid #a7a4a4;
+    padding: 0.8rem 0.5rem;
+    border-radius: 6px; 
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    overflow-wrap: break-word;
+
+}
+
+.question-input:focus {
+    border: 2px solid #cda4d8;
+}
+.button-container1 button:hover {
+    background-color: #9e26a9;
+}
+
+.button-container2 button {
+    background-color: #9F4CA7;
+    font-size: 1.2rem;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .2 ease;
+    padding: 0.6em 2.5em;
+}
+
+@media only screen and (max-width: 600px){
+    html{
+        font-size: 12px;
+    }
+    .questionpage{
+
+        padding: 7.5rem 4rem 0rem 4rem; 
+       
+    }
+
+}
+
+@media only screen and (min-width: 700px) and (max-width: 992px){
+    html{
+        font-size: 14px;
+    }
+    .questionpage{
+
+        padding: 7.5rem 4rem 0rem 4rem; 
+       
+    }
+}

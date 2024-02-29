@@ -1,0 +1,148 @@
+.discussionpage { 
+    background-color: #F9F8F9;
+    padding: 8rem 7.5rem 0rem 7.5rem;
+    /* max-width: 1800px; */
+    min-height: 100vh;
+
+    
+}
+
+.section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    padding: 20px 0px 4rem 0px;
+}
+
+.section1 div {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.button-container button{
+    background-color: #9F4CA7;
+    font-size: 1.2rem;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 1em 2em;
+    cursor: pointer;
+    transition: all .2 ease;
+}
+
+.button-container button:hover {
+    background-color: #9e26a9;
+}
+
+.main-body {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 16px;
+
+}
+
+.question-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+.question-title{
+    font-size: 1.2rem;
+}
+.icon-title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icon-title img{
+    width: 30px;
+}
+
+.like-count {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.like-count div{
+    color: #828181;
+}
+.like-count img {
+    width: 50px;
+}
+
+/* .heart-icon-animated {
+    
+} */
+
+@media only screen and (max-width: 600px){
+    html{
+        font-size: 12px;
+    }
+    .discussionpage{
+        padding: 9rem 4rem 4rem 4rem;
+    }
+    
+    .icon-title img{
+        width: 20px;
+    }
+
+    .button-container button{
+        font-size: 1.2rem;
+        padding: 1em 1em;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    html{
+        font-size: 12px;
+    }
+    .discussionpage{
+        padding: 9rem 4rem 4rem 4rem;
+    }
+    
+    .button-container button{
+        font-size: 1rem;
+        padding: 1em 1em;
+    }
+    .section1 div{
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    html{
+        font-size: 10px;
+    }
+    .discussionpage{
+        padding: 9rem 4rem 4rem 4rem;
+    }
+    
+    .button-container button{
+        font-size: 1rem;
+        padding: 1em 1em;
+    }
+    .section1 div{
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (min-width: 708px) and (max-width: 992px){
+    html{
+        font-size: 14px;
+    }
+    .discussionpage{
+        padding: 8rem 4rem 4rem 4rem;
+    }
+}
