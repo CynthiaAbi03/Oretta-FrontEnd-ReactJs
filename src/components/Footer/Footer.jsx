@@ -22,6 +22,7 @@ const Footer = () => {
             </div>
 
             <div className="follow-us">
+
               <div>Suivez-nous</div>
               
               <div className="images-social-media">
@@ -29,7 +30,7 @@ const Footer = () => {
                 <a href="https://www.instagram.com" target='_blank' rel="noreferrer"><img className='img-size' src={instagram_icon} alt="" /></a>
                 <a href="https://twitter.com" target='_blank' rel="noreferrer"><img className='img-size-twitter' src={x_icon} alt="" /></a>
               </div>
-             
+              
             </div>
         </div>
         <div className="about-us">

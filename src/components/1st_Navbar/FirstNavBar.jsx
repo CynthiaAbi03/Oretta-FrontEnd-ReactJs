@@ -8,11 +8,19 @@ const FirstNavBar = () => {
     const menuList = useRef()
     const headerRef = useRef()
 
+
     const dropdown_toggle = (e) => {
         menuRef.current.classList.toggle('active')
         headerRef.current.classList.toggle('active')
         menuList.current.classList.toggle('navbar_visible')
     }
+
+    const hideMenu = () => {
+        menuRef.current.classList.remove('active')
+        headerRef.current.classList.remove('active')
+        menuList.current.classList.remove('navbar_visible')
+    }
+
 
   return (
     <div className='firstnavbar' ref={headerRef}>
@@ -25,9 +33,9 @@ const FirstNavBar = () => {
 
             <nav ref={menuList}>
                 <ul>
-                    <li><a href="#footer">À propos</a></li>
-                    <li><a href="#footer">Aide</a></li>
-                    <li><a href="#footer">Contact</a></li>
+                    <li><a onClick={hideMenu} href="#footer">À propos</a></li>
+                    <li><a onClick={hideMenu} href="#footer">Aide</a></li>
+                    <li><a onClick={hideMenu} href="#footer">Contact</a></li>
                 </ul>
 
                 <div className="login-button">
