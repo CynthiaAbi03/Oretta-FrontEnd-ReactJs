@@ -26,6 +26,7 @@ const FirstNavBar = () => {
     <div className='firstnavbar' ref={headerRef}>
         
        
+        
 
             <div className="logo">
                 <div>Oretta</div>
@@ -52,6 +53,7 @@ const FirstNavBar = () => {
                 <div className="bar"></div>
                 <div className="bar"></div>
             </div>
+       
        
 
     </div>

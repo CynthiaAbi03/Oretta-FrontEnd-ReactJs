@@ -12,7 +12,7 @@ const Landing_page = () => {
   return (
     <div className='body-landingpage'>
       <FirstNavBar/>
-
+      
       <section className='landingpage-section'>
         <div className="landingpage">
 

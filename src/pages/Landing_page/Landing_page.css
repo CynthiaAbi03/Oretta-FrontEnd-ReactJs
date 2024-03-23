@@ -11,10 +11,7 @@
     padding-right: 7.5rem;
     padding-left: 7.5rem;
     padding-bottom: 6rem ;
-    padding-top: 7.5rem;
-    
-      
-    
+    padding-top: 7.5rem;   
 }
 
 
@@ -149,14 +146,14 @@
     .landingpage{
         display: flex;
         flex-direction: column;
-        padding: 10rem 4rem;
+        padding: 10rem 2rem;
     }
     .main-section-landingpage{
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 3rem;
-        padding: 2rem 4rem;
+        padding: 2rem 2rem;
         
     }
     .journal-section, .discussion-section{
@@ -190,7 +187,7 @@
     }
     .landingpage{
         display: flex;
-        padding: 10rem 4rem;
+        padding: 10rem 2rem;
     }
     .main-section-landingpage{
 
@@ -258,14 +255,14 @@
      .journal-section {
         position: absolute;
         top: 450px;
-        left: 140px;
+        left: 260px;
         margin-bottom: 10rem;
 
     
     }
     .discussion-section{
         position: absolute;
-        right: 120px;
+        right: 260px;
         top: 450px;
         margin-bottom: 10rem;
     }   

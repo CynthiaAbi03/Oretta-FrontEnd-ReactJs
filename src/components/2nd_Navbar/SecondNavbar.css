@@ -96,7 +96,7 @@
         font-size: 12px;
     }
     .secondnavbar{
-        padding: 1rem 4rem;
+        padding: 1rem 2rem;
         justify-content: space-between;   
         display: flex;
         flex-direction: column;
@@ -141,7 +141,7 @@
         font-size: 14px;
     }
     .secondnavbar{
-        padding: 1rem 4rem;
+        padding: 1rem 2rem;
         justify-content: space-between;   
         display: flex;
         margin: 0;

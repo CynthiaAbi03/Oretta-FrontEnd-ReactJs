@@ -91,7 +91,7 @@
         font-size: 12px;
     }
     .discussionpage{
-        padding: 9rem 4rem 4rem 4rem;
+        padding: 9rem 2rem 4rem 2rem;
     }
     
     .icon-title img{
@@ -109,7 +109,7 @@
         font-size: 12px;
     }
     .discussionpage{
-        padding: 9rem 4rem 4rem 4rem;
+        padding: 9rem 4rem 2rem 2rem;
     }
     
     .button-container button{
@@ -126,7 +126,7 @@
         font-size: 10px;
     }
     .discussionpage{
-        padding: 9rem 4rem 4rem 4rem;
+        padding: 9rem 2rem 4rem 2rem;
     }
     
     .button-container button{
@@ -143,6 +143,6 @@
         font-size: 14px;
     }
     .discussionpage{
-        padding: 8rem 4rem 4rem 4rem;
+        padding: 8rem 2rem 4rem 2rem;
     }
 }
